@@ -20,6 +20,10 @@ const ImageSchema = new Schema({
   disabled: {
     type: Boolean,
     default: false
+  },
+  server: {
+    type: String,
+    required: true
   }
 },
 {

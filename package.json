@@ -5,7 +5,8 @@
   "author": "Bob Hensley",
   "license": "GPL-2.0",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
